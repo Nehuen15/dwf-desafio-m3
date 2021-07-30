@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Roboto:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./styles.css" />
+        <title>Mi primera página web</title>
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-div">
+                <a href="./">
+                    <img
+                        src="./Images/logo.svg"
+                        alt="header-logo"
+                        class="header-logo"
+                    />
+                </a>
+                <div class="conteiner-header-actions">
+                    <img
+                        src="./Images/burger.svg"
+                        alt="options"
+                        class="burguer-mobile"
+                    />
+                    <nav class="options-header-desktop">
+                        <a
+                            href="#about-me"
+                            class="
+                                about-me-desktop
+                                options-header-desktop-links
+                            "
+                            >Quien soy</a
+                        >
+                        <a
+                            href="#services"
+                            class="
+                                services-desktop
+                                options-header-desktop-links
+                            "
+                            >Servicios</a
+                        >
+                        <a
+                            href="#form"
+                            class="form-desktop options-header-desktop-links"
+                            >Escribeme</a
+                        >
+                    </nav>
+                </div>
+            </div>
+            <div class="reception-div">
+                <h1 class="reception-div-title">Bienvenidxs a mi site</h1>
+                <img
+                    src="./Images/img-principal.png"
+                    alt="Me"
+                    class="reception-img"
+                />
+            </div>
+        </header>
+        <main class="main" id="about-me">
+            <div class="div-main">
+                <h2 class="h2 main-h2">Soy Nehuen</h2>
+                <p class="main-p">
+                    Algo interesante sobre mi Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. Nulla dui quam, sollicitudin at
+                    enim id, sodales vehicula velit. Aenean lobortis posuere
+                    tristique. Phasellus placerat arcu elementum nisi ultrices
+                    cursus. Etiam sit amet aliquet lacus. Integer ut iaculis
+                    augue, sit amet tincidunt ex. In eleifend justo et sodales
+                    semper. Mauris nec tortor lectus. Curabitur nec ultricies
+                    dolor.
+                </p>
+            </div>
+            <img
+                src="./Images/chequered-flag.png"
+                alt="main-img"
+                class="main-img"
+            />
+        </main>
+        <section class="services-section" id="services">
+            <h2 class="h2 services-section-h2">Mis Servicios</h2>
+            <div class="services-conteiner">
+                <div class="service service-one">
+                    <img
+                        src="./Images/f1 (1).png"
+                        alt="service-img"
+                        class="service-img"
+                    />
+                    <h3 class="service-h3">Hago Cosas</h3>
+                    <p class="service-p">
+                        Algo interesante sobre mi Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Nulla dui quam,
+                        sollicitudin at enim id, sodales vehicula velit. Aenean
+                        lobortis posuere tristique.
+                    </p>
+                </div>
+                <div class="service service-two">
+                    <img
+                        src="./Images/car.png"
+                        alt="service-img"
+                        class="service-img"
+                    />
+                    <h3 class="service-h3">Y más cosas</h3>
+                    <p class="service-p">
+                        Algo interesante sobre mi Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Nulla dui quam,
+                        sollicitudin at enim id, sodales vehicula velit. Aenean
+                        lobortis posuere tristique.
+                    </p>
+                </div>
+                <div class="service service-three">
+                    <img
+                        src="./Images/f1.png"
+                        alt="service-img"
+                        class="service-img"
+                    />
+                    <h3 class="service-h3">Y tambien otras cosas</h3>
+                    <p class="service-p">
+                        Algo interesante sobre mi Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit. Nulla dui quam,
+                        sollicitudin at enim id, sodales vehicula velit. Aenean
+                        lobortis posuere tristique.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <form class="form" id="form">
+            <h2 class="h2 form-h2">Escribeme</h2>
+            <fieldset class="form-fieldset">
+                <label for="name-input" class="name-label label">NOMBRE</label>
+                <input type="text" id="name-input" class="input name-input" />
+                <label for="email-input" class="email-label label">EMAIL</label>
+                <input
+                    type="email"
+                    id="email-input"
+                    class="input email-input"
+                />
+                <label for="message" class="message-label label">Mensaje</label>
+                <textarea
+                    id="message"
+                    class="input message-textarea"
+                ></textarea>
+                <button class="input button">Enviar</button>
+            </fieldset>
+        </form>
+        <footer class="footer">
+            <div class="footer-conteiner-logo">
+                <img src="./Images/logo.svg" alt="logo" class="footer-logo" />
+                <p class="copy">© 2021 Nehuen</p>
+            </div>
+            <div class="footer-conteiner-socialmedia">
+                <a
+                    href="https://www.instagram.com/carrizo_15/"
+                    class="social footer-instagram"
+                >
+                    <img
+                        src="./Images/instagram.svg"
+                        alt="logo-instagram"
+                        class="logo-social logo-instagram"
+                    />
+                    <p class="name-social instagram">Instagram</p>
+                </a>
+                <a
+                    href="https://www.linkedin.com/"
+                    class="social footer-linkedin"
+                >
+                    <img
+                        src="./Images/Vector.svg"
+                        alt="logo-linkedin"
+                        class="logo-social logo-linkedin"
+                    />
+                    <p class="name-social linkedin">Linkedin</p>
+                </a>
+                <a
+                    href="https://github.com/nehuen15"
+                    class="social footer-github"
+                >
+                    <img
+                        src="./Images/Vector (1).svg"
+                        alt="logo-github"
+                        class="logo-social logo-github"
+                    />
+                    <p class="name-social github">Github</p>
+                </a>
+            </div>
+        </footer>
+    </body>
+</html>
